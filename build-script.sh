@@ -33,6 +33,6 @@ else
 fi
 
 
-#cf login -a https://${CF_API_ENDPOINT} -u ${CF_USER} -p ${CF_PASSWORD} -o "${CF_ORG}" -s "${CF_SPACE}" --skip-ssl-validation
+cf login -a https://${CF_API_ENDPOINT} -u ${CF_USER} -p ${CF_PASSWORD} -o "${CF_ORG}" -s "${CF_SPACE}" --skip-ssl-validation
 
-#cf push $JOB_NAME
+cf push $JOB_NAME
