@@ -14,7 +14,7 @@ cd app
 bower install
 
 # Run gulp CI tasks
-gulp ci
+//gulp ci
 
 #move back up to the root directory
 cd ../
