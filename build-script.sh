@@ -25,7 +25,7 @@ rm -r node_modules
 
 CF_API_ENDPOINT="api.run.pivotal.io"
 CF_USER="aaron.berk@gmail.com"
-CF_ORG="Trevor test org"
+CF_ORG="slalomLab"
 if [ $CF_SPACE ]; then
 	CF_SPACE=$CF_SPACE
 else
